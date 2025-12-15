@@ -32,11 +32,20 @@ export const candidates = [
 ];
 
 export const jobs = [
-  { id: 1, title: 'Frontend Developer', department: 'Engineering', status: 'Open', applicants: 12, requiredSkills: ['React', 'TypeScript', 'CSS', 'HTML', 'Redux'] },
-  { id: 2, title: 'Backend Engineer', department: 'Engineering', status: 'Open', applicants: 8, requiredSkills: ['Node.js', 'Python', 'AWS', 'SQL', 'Microservices'] },
-  { id: 3, title: 'Product Designer', department: 'Design', status: 'Open', applicants: 15, requiredSkills: ['Figma', 'UI/UX', 'Wireframing', 'Adobe XD'] },
-  { id: 4, title: 'HR Manager', department: 'HR', status: 'Closed', applicants: 45, requiredSkills: ['Recruiting', 'Communication', 'Workday', 'Conflict Resolution'] },
+  { id: 1, title: 'Frontend Developer', department: 'Engineering', status: 'Open', applicants: 7, requiredSkills: ['React', 'TypeScript', 'CSS', 'HTML', 'Redux'] },
+  { id: 2, title: 'Backend Engineer', department: 'Engineering', status: 'Open', applicants: 6, requiredSkills: ['Node.js', 'Python', 'AWS', 'SQL', 'Microservices'] },
+  { id: 3, title: 'Product Designer', department: 'Design', status: 'Open', applicants: 1, requiredSkills: ['Figma', 'Sketch', 'Prototyping', 'User Research'] },
+  { id: 4, title: 'Data Analyst', department: 'Data', status: 'Open', applicants: 2, requiredSkills: ['SQL', 'Excel', 'Tableau', 'Power BI'] },
+  { id: 5, title: 'UX Designer', department: 'Design', status: 'Open', applicants: 2, requiredSkills: ['Figma', 'Wireframing', 'User Testing'] },
+  { id: 6, title: 'UI Designer', department: 'Design', status: 'Open', applicants: 2, requiredSkills: ['Figma', 'Sketch', 'Adobe XD'] },
+  { id: 7, title: 'QA Engineer', department: 'Engineering', status: 'Open', applicants: 2, requiredSkills: ['Selenium', 'Cypress', 'Automation Testing'] },
+  { id: 8, title: 'Security Engineer', department: 'Engineering', status: 'Open', applicants: 1, requiredSkills: ['Pen Testing', 'Python', 'Linux'] },
+  { id: 9, title: 'Data Scientist', department: 'Data', status: 'Open', applicants: 1, requiredSkills: ['Python', 'Pandas', 'Machine Learning', 'SQL'] },
+  { id: 10, title: 'Product Manager', department: 'Product', status: 'Open', applicants: 2, requiredSkills: ['JIRA', 'Roadmapping', 'Communication'] },
+  { id: 11, title: 'Project Manager', department: 'Product', status: 'Open', applicants: 1, requiredSkills: ['Agile', 'Scrum', 'JIRA'] },
+  { id: 12, title: 'DevOps Engineer', department: 'Engineering', status: 'Open', applicants: 3, requiredSkills: ['Docker', 'Kubernetes', 'Terraform', 'AWS'] },
 ];
+
 
 export const activity = [
   { id: 1, user: 'John Doe', action: 'moved Alice Johnson to Interviewing', time: '2 hours ago' },
