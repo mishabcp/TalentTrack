@@ -23,7 +23,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <AppProvider>
-          <Router>
+          <Router basename="/TalentTrack"> {/* Add basename here */}
             <Layout>
               <Routes>
                 <Route path="/" element={<DashboardPage />} />
