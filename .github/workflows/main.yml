@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write   # This is the key line — allows pushing to branches
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -22,11 +25,11 @@ jobs:
 
       - name: Build project
         run: npm run build
-        # Vite builds everything into the 'dist' folder
+        # Creates the 'dist' folder (perfect for your Vite project)
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          commit_message: Deploy to GitHub Pages
+          commit_message: "Deploy Vite build to GitHub Pages"
